@@ -1,0 +1,85 @@
+* {box-sizing: border-box}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+
+    background-color: darkgray;
+    padding: 5px;
+}
+
+.nav-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-text {
+    text-transform: capitalize;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btnn {
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btnn-sidenav {
+    text-align: center;    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.btnn-sidenav-tab {
+    padding: 15px 10px;
+    background-color: #adadad;
+    text-decoration: none;
+    align-self: center;
+    width: 100%;
+}
+
+.btnn-sidenav-tab:hover, .active-sidenav-tab {
+    background-color: #dedede;
+    transition: .2s;
+}
+
+.active-sidenav-tab {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.echo {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Side Nav */
+.sidenav {
+    padding-top: 50px;
+    height: 95vh;
+    width: 200px;
+    position: absolute;
+    background-color: #c5c5c5;
+}
+
+.main {
+    margin-left: 200px;
+    padding: 10px 30px;
+}

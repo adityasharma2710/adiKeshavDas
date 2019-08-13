@@ -1,0 +1,14 @@
+{
+  "name": "adi",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css_main/style.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
