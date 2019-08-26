@@ -1,4 +1,10 @@
 body{
     font-size: 1.2em;
    font-family: lato;
+   /* background-image: url(https://live.staticflickr.com/1903/43196225710_504164ff12_h.jpg);*/
+}
+
+.bg img {
+    background-position: center;
+    background-size: cover;
 }
