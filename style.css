@@ -4,7 +4,8 @@ body{
    /* background-image: url(https://live.staticflickr.com/1903/43196225710_504164ff12_h.jpg);*/
 }
 
-.bg img {
+ img {
     background-position: center;
     background-size: cover;
+    position: fixed;
 }
