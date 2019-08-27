@@ -5,16 +5,19 @@ body{
 }
 
  .back-1 {
-     position: fixed;
+     position: relative;
      background-image: url(https://live.staticflickr.com/1903/43196225710_84e6bd6c29_k.jpg);
-    
+     background-position: center;
      background-size: cover;
      min-height: 100%;
      min-width: 100%;
+     background-attachment: fixed;
 }
 .back-2 {
-     position: absolute;
+     position: relative;
+     background-image: url(https://live.staticflickr.com/4870/44169303830_0f7035362e_k.jpg);
      background-position: center;
      background-size: cover;
+    background-attachment: fixed;
 }
 
