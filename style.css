@@ -4,8 +4,17 @@ body{
    /* background-image: url(https://live.staticflickr.com/1903/43196225710_504164ff12_h.jpg);*/
 }
 
- img {
-    background-position: center;
-    background-size: cover;
-    position: fixed;
+ .back-1 {
+     position: fixed;
+     background-image: url(https://live.staticflickr.com/1903/43196225710_84e6bd6c29_k.jpg);
+    
+     background-size: cover;
+     min-height: 100%;
+     min-width: 100%;
 }
+.back-2 {
+     position: absolute;
+     background-position: center;
+     background-size: cover;
+}
+
