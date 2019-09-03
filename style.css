@@ -4,20 +4,24 @@ body{
    /* background-image: url(https://live.staticflickr.com/1903/43196225710_504164ff12_h.jpg);*/
 }
 
- .back-1 {
-     position: relative;
-     background-image: url(https://live.staticflickr.com/1903/43196225710_84e6bd6c29_k.jpg);
-     background-position: center;
-     background-size: cover;
-     min-height: 100%;
-     min-width: 100%;
+
+.back-1, .back-2{
+         min-height: 1000px;
+     
      background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+ 
+
+
+.back-1 {
+     background-image: url(https://live.staticflickr.com/1903/43196225710_84e6bd6c29_k.jpg);
+
 }
 .back-2 {
-     position: relative;
+   
      background-image: url(https://live.staticflickr.com/4870/44169303830_0f7035362e_k.jpg);
-     background-position: center;
-     background-size: cover;
-    background-attachment: fixed;
+     
 }
-
