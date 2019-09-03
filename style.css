@@ -6,7 +6,7 @@ body{
 
 
 .back-1, .back-2{
-         min-height: 1000px;
+     
      
      background-attachment: fixed;
      background-position: center;
@@ -17,11 +17,12 @@ body{
 
 
 .back-1 {
-     background-image: url(https://live.staticflickr.com/1903/43196225710_84e6bd6c29_k.jpg);
+        min-height: 1000px;
+    background-image: url(https://live.staticflickr.com/1903/43196225710_84e6bd6c29_k.jpg);
 
 }
 .back-2 {
-   
+       min-height: 700px;
      background-image: url(https://live.staticflickr.com/4870/44169303830_0f7035362e_k.jpg);
      
 }
