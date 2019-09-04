@@ -26,3 +26,9 @@ body{
      background-image: url(https://live.staticflickr.com/4870/44169303830_0f7035362e_k.jpg);
      
 }
+
+.text-center{
+   /* padding-top: 40%;
+    */
+    font-size: 5rem;
+}
